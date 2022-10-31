@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">TestApp</string>
+    <string name="tvHead2">Scheduled Meals</string>
+    <string name="tvHead">Nutrition Management</string>
+    <string name="tvsub1">Enter Your Details</string>
+    <string name="btnCalculate">Calculate Calories</string>
+    <string name="btnMeals">My meals</string>
+    <string name="etHint1">Breakfast/Lunch/Dinner</string>
+    <string name="etHint2">Food Name</string>
+    <string name="etHint3">Quantity</string>
+    <string name="etHint4">Calories</string>
+    <string name="btnAdd">Create Schedule</string>
+    <string name="btnView">View Meals</string>
+    <string name="btnUpdate">Update</string>
+    <string name="btnDelete">Delete</string>
+    <string name="btnViewCal">Calories</string>
+</resources>
