@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "653850153438",
+    "project_id": "learnoset-be776",
+    "storage_bucket": "learnoset-be776.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:653850153438:android:841613dcf127e4a9bd8d4f",
+        "android_client_info": {
+          "package_name": "com.example.cherry"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "653850153438-fhuh4nbgp7c3d2ve745etg01ob8gadqd.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.cherry",
+            "certificate_hash": "17838b8759df698e8949d337b4f47361842316d9"
+          }
+        },
+        {
+          "client_id": "653850153438-t45387m5mbvnan5r1eolff115mtf6sdu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBhPuXVcSN8DdE1rDchmLJo_fnDIpW5fns"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "653850153438-t45387m5mbvnan5r1eolff115mtf6sdu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--one view on another view so layer list is used-->
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+<!-- background color-->
+    <item>
+        <shape
+            android:shape="ring"
+            android:useLevel="false"
+            android:thicknessRatio="15">
+
+            <solid android:color="@color/white"/>
+
+        </shape>
+    </item>
+
+
+
+<!--loading color-->
+    <item>
+        <rotate
+            android:fromDegrees="270"
+            android:toDegrees="270">
+
+        <shape
+            android:shape="ring"
+            android:useLevel="true"
+            android:thicknessRatio="15">
+
+            <gradient android:startColor="#66DCE1" android:endColor="#66DCE1"/>
+
+        </shape>
+
+        </rotate>
+    </item>
+</layer-list>
