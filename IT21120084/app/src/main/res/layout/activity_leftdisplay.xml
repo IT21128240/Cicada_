@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/shape"
+    tools:context=".weight_tracker3">
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/bell"
+        android:layout_width="48dp"
+        android:layout_height="42dp"
+        android:layout_weight="1"
+        android:background="@drawable/logo"
+        tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck"
+        tools:layout_editor_absoluteX="335dp"
+        tools:layout_editor_absoluteY="84dp" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="145dp"
+        app:srcCompat="@drawable/shadow_card"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="0dp" />
+
+    <RelativeLayout
+        android:id="@+id/relatLay1"
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        tools:layout_editor_absoluteY="84dp">
+
+        <TextView
+            android:id="@+id/weighttracker1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="22dp"
+            android:text="Weight Tracker"
+            android:textColor="@color/black"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            app:layout_constraintHorizontal_bias="0.125"
+            app:layout_constraintStart_toStartOf="parent" />
+
+
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/btmbar2"
+        android:layout_width="449dp"
+        android:layout_height="532dp"
+        android:paddingHorizontal="10dp"
+        app:srcCompat="@drawable/bottomcont"
+        tools:layout_editor_absoluteX="-19dp"
+        tools:layout_editor_absoluteY="195dp" />
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/backbtn"
+        android:layout_width="341dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="440dp"
+        android:layout_marginBottom="32dp"
+        android:background="@drawable/button"
+        android:text="BACK"
+        android:textSize="30dp"
+        app:layout_constraintBottom_toBottomOf="@+id/btmbar2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.6"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/btmbar2" />
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="376dp"
+        android:layout_height="326dp"
+        app:layout_constraintBottom_toTopOf="@+id/backbtn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.542"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView5"
+        app:layout_constraintVertical_bias="0.309"
+        app:srcCompat="@drawable/range" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="79dp"
+        android:layout_height="46dp"
+        android:layout_marginTop="76dp"
+        android:text="BMI RANGE"
+        android:textSize="35dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.533"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

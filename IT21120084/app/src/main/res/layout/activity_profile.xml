@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/shape">
+
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/calbmi"
+        android:layout_width="341dp"
+        android:layout_height="60dp"
+        android:layout_marginBottom="71dp"
+        android:background="@drawable/button"
+        android:text="Progress"
+        android:textSize="25dp"
+        app:layout_constraintTop_toBottomOf="@id/CWeight"
+        android:layout_marginTop="80dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        app:srcCompat="@drawable/shadow_card"
+        tools:ignore="MissingConstraints" />
+
+
+    <TextView
+        android:id="@+id/watertraker"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="74dp"
+        android:text="Weight Tracker"
+        android:textColor="@color/black"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.032"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/arrow"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="28dp"
+        android:background="@drawable/arow"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/bell"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_marginEnd="31dp"
+        android:layout_weight="1"
+        android:background="@drawable/logo"
+        android:elevation="10dp"
+        android:outlineSpotShadowColor="@color/black"
+        android:padding="10dp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/watertraker"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/containert" />
+
+
+    <TextView
+        android:id="@+id/display"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="PROFILE"
+        android:textColor="@color/black"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:paddingStart="150dp"
+        android:paddingTop="140dp"
+        app:layout_constraintTop_toBottomOf="@id/watertraker"/>
+
+
+
+
+
+
+
+    <EditText
+        android:id="@+id/editTextNumberDecimal"
+        android:layout_width="match_parent"
+        android:layout_marginEnd="150dp"
+        android:layout_marginStart="150dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        app:layout_constraintTop_toBottomOf="@id/display"
+        android:hint="25KG"
+        android:layout_marginTop="15dp"
+        android:inputType="numberDecimal"
+
+        tools:layout_editor_absoluteY="302dp"
+        tools:ignore="MissingConstraints" />
+
+
+    <EditText
+        android:id="@+id/gender"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="120dp"
+        android:layout_marginStart="120dp"
+        app:layout_constraintTop_toBottomOf="@id/editTextNumberDecimal"
+        android:gravity="center"
+        android:hint="SET YOUR GOAL"
+        android:layout_marginTop="15dp"
+        tools:layout_editor_absoluteX="170dp"
+        tools:layout_editor_absoluteY="362dp"
+        tools:ignore="MissingConstraints" />
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/UPDATE"
+        android:layout_width="95dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="108dp"
+        android:layout_marginBottom="264dp"
+        android:background="@drawable/button"
+        android:text="UPDATE"
+        android:textSize="15dp"
+        app:layout_constraintTop_toBottomOf="@id/gender"
+        android:layout_marginTop="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/CWeight"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="40dp"
+        android:layout_marginStart="40dp"
+        app:layout_constraintTop_toBottomOf="@id/editTextNumberDecimal"
+        android:gravity="center"
+        android:hint="ENTER YOUR CURRENT WEIGHT"
+        android:layout_marginTop="140dp"
+        tools:layout_editor_absoluteX="170dp"
+        tools:layout_editor_absoluteY="362dp"
+        tools:ignore="MissingConstraints" />
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/UPDATE2"
+        android:layout_width="95dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="150dp"
+        android:layout_marginBottom="156dp"
+        android:background="@drawable/button"
+        android:text="UPDATE"
+        android:textSize="15dp"
+        app:layout_constraintTop_toBottomOf="@id/CWeight"
+        android:layout_marginTop="10dp"
+
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/SET"
+        android:layout_width="95dp"
+        android:layout_height="40dp"
+        android:layout_marginEnd="92dp"
+        android:layout_marginBottom="264dp"
+        android:background="@drawable/button"
+        android:text="NEW"
+        android:layout_marginTop="15dp"
+        android:textSize="15dp"
+        app:layout_constraintTop_toBottomOf="@id/gender"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

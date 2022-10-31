@@ -1,0 +1,52 @@
+<resources>
+    <string name="app_name">Blue Blood</string>
+    <string name="Goal">Goal</string>
+    <string name="del">Delete</string>
+    <string name="glass">Choose cup</string>
+    <string name="plus">ADD</string>
+    <string name="select">Choose</string>
+    <string name="arrow">Back</string>
+    <string name="progress">Progress Circle</string>
+    <string name="protext">Percentage</string>
+    <string name="undo">Undo</string>
+
+    <!--    shadows-->
+    <string name="BgShadow">BShadow</string>
+    <string name="to_shadow">Shadow top</string>
+
+    <!--CUPS-->
+    <string name="cup1">Cup1</string>
+    <string name="cup2">Cup2</string>
+    <string name="cup3">Cup3</string>
+    <string name="cup4">Cup4</string>
+    <string name="cup5">Cup5</string>
+    <string name="cup6">Cup6</string>
+
+    <!-- Set/Custom-->
+    <string name="button1">SET</string>
+    <string name="button2">Customize</string>
+    <string name="editvol">Enter_volume</string>
+
+
+    <!--    Text views-->
+
+    <string name="wtracker">Water Tacker</string>
+    <string name="one">50 ml</string>
+    <string name="two">100 ml</string>
+    <string name="three">200 ml</string>
+    <string name="four">500 ml</string>
+    <string name="five">1000 ml</string>
+    <string name="six">1500 ml</string>
+    <string name="set">Enter the volume</string>
+    <string name="goalset">SET GOAL</string>
+    <string name="male">male 3700ml (16 cups)</string>
+    <string name="female">male 2700ml (11 cups)</string>
+    <string name="note">By :National Academies of Sciences,
+                          Engineering, and Medicine</string>
+    <string name="milli">ml</string>
+    <string name="pro">progress</string>
+    <string name="progresstext">32</string>
+    <string name="email">email1</string>
+</resources>
+
+
